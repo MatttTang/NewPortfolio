@@ -1,10 +1,5 @@
 import React from 'react'
 import {Link, useLocation} from 'react-router-dom';
-import PC from './PathCreator';
-import OC from './OutCreation';
-import PM from './Mapper';
-import Location2 from '../assets/L2';
-import Location3 from '../assets/L3';
 
 
 

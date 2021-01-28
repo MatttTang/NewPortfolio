@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {motion, useAnimation} from 'framer-motion';
+import {motion} from 'framer-motion';
 import SV from '../styling/SlidingVariant';
 import Item from './Item1';
 import Me from '../assets/me.jpg';
@@ -8,15 +8,10 @@ import Paul from '../assets/paul.jpg';
 import C1 from '../assets/card1.jpg';
 import Linked from '../assets/linked.jpg';
 import Git from '../assets/gitlogo.jpg';
-import {useLocation} from 'react-router-dom';
-import PC from './PathCreator';
-import OC from './OutCreation';
-import PM from './Mapper';
 
 export default function Home() {
     const pictures = [C1, Me, Ahri, Paul];
     const [SlideNum, setSlide] = useState(0);
-    const controls = useAnimation();
     function Changer(symbol){
         if (symbol === '-'){
             setSlide(SlideNum - 1);
@@ -37,10 +32,10 @@ export default function Home() {
             </motion.div>
             <div id="Contacts">
                 <h1>Personal Accounts</h1>
-                <a target="_blank" href="https://www.linkedin.com/in/tang-matthew/">
+                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/tang-matthew/">
                     <motion.img whileHover={{scale: 1.2}} className="logos" src={Linked} />
                 </a>
-                <a target="_blank" href="https://github.com/MatttTang">
+                <a rel="noreferrer" target="_blank" href="https://github.com/MatttTang">
                     <motion.img whileHover={{scale: 1.2}} id="GLogo" src={Git} />
                 </a>
             </div>

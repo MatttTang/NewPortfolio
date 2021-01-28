@@ -6,10 +6,10 @@ export default function Project(props) {
         <div>
             <h1>{Catalog[props.Info].Description}</h1>
             {Catalog[props.Info].hasOwnProperty("Link") &&(
-                <iframe src={Catalog[props.Info].Link} />
+                <iframe title={`${props.Info} Frame`} src={Catalog[props.Info].Link} />
             )}
             {Catalog[props.Info].hasOwnProperty("YLink") &&(
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gbDyaXYKQBo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe title={`${props.Info} YLink`} width="560" height="315" src="https://www.youtube.com/embed/gbDyaXYKQBo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             )}
         </div>
     )
