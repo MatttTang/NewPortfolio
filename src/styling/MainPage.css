@@ -1,0 +1,60 @@
+#header{
+    background-color: rgba(84, 84, 84, 1);
+    color: rgb(255, 255, 255);
+    height: 3vh;
+    text-align: left;
+}
+ul{
+    margin: 0;
+    padding-left: 5vw;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    width: 50%;
+    margin-right: 15vw;
+}
+.ItemHolder{
+    height: 55vh;
+    width: 100vw;
+    background-color: rgba(31, 31, 31, 0.8);
+    position: relative;
+}
+.itemPicture{
+    height: 55vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.itemButton{
+    position: absolute;
+    bottom: 1vh;
+    border-radius: 100%;
+    border: none;
+    width: 3vw;
+    height: 3vh;
+    font-size: 1.5em;
+}
+#moveLeft{
+    right: 6vw;
+}
+#moveRight{
+    right: 2vw;
+}
+#wordy{
+    width: 85vw;
+    height: 50vh;
+}
+#personal{
+    width: 85vw;
+    height: 50vh;
+}
+.logos{
+    width: 4vw;
+}
+#GLogo{
+    width: 11.5vw;
+}
