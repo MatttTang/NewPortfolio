@@ -1,0 +1,14 @@
+.aboutText{
+    color: red;
+    margin: 0;
+}
+.aboutSec{
+    text-align: center;
+}
+#greet{
+    display: inline-block;
+}
+#Personal{
+}
+#Technical{
+}

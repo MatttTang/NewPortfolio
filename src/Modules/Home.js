@@ -2,15 +2,13 @@ import React, {useState} from 'react';
 import {motion} from 'framer-motion';
 import SV from '../styling/SlidingVariant';
 import Item from './Item1';
-import Me from '../assets/me.jpg';
-import Ahri from '../assets/a.jpg';
 import Paul from '../assets/paul.jpg';
 import C1 from '../assets/card1.jpg';
 import Linked from '../assets/linked.jpg';
 import Git from '../assets/gitlogo.jpg';
 
 export default function Home() {
-    const pictures = [C1, Me, Ahri, Paul];
+    const pictures = [C1, Paul];
     const [SlideNum, setSlide] = useState(0);
     function Changer(symbol){
         if (symbol === '-'){

@@ -1,0 +1,25 @@
+iframe{
+    height: 70vh;
+    width: 80vw;
+}
+a{
+    color:green;
+}
+.ProjectContent{
+    width: 60%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+.ProjectContent p{
+    text-align: center;
+}
+#pStyle{
+    text-align: center;
+}
+#pNav{
+    background-color: black;
+}
+#ResumeDisplay{
+    height: 100vh;
+}

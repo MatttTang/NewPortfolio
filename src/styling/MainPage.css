@@ -11,7 +11,7 @@ ul{
 li{
     display: inline;
 }
-a{
+#header a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 2vh;
@@ -57,4 +57,21 @@ a{
 }
 #GLogo{
     width: 11.5vw;
+}
+.banner{
+    background-image: url("../assets/banner.jpg");
+    color: black;
+    height: 10vh;
+}
+.banner h1{
+    margin: 0;
+    padding-top: 2vh;
+}
+
+#SeeMe button{
+    border: none;
+    background-color: white;
+    height: 10vh;
+    width: 10vw;
+    font-size: large;
 }
