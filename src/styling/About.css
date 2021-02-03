@@ -1,14 +1,29 @@
 .aboutText{
-    color: red;
     margin: 0;
 }
 .aboutSec{
-    text-align: center;
+    display: inline-block;
+    width: 50%;
 }
 #greet{
-    display: inline-block;
 }
 #Personal{
 }
 #Technical{
+    float: right;
+    width: 50%;
+}
+#cert{
+    float: left;
+    width: 35vw;
+    vertical-align: middle;
+}
+#techDiv{
+    margin: 100px;
+    display: inline-block;
+}
+.Info{
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 5vh;
 }

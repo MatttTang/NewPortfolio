@@ -13,6 +13,9 @@ export default function Project(props) {
                 <iframe title={`${props.Info} YLink`} width="560" height="315" src="https://www.youtube.com/embed/gbDyaXYKQBo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             )}
             <div className="ProjectContent">
+                {Catalog[props.Info].hasOwnProperty("Team") &&(
+                    <h2>Team Members: {Catalog[props.Info].Author}</h2>
+                )}
                 <p>{Catalog[props.Info].Description}</p>
                 <p>{Catalog[props.Info].Exp}</p>
                 <a rel="noreferrer" href={Catalog[props.Info].GitHubLink} target="_blank">GitHub</a>

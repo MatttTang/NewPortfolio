@@ -15,8 +15,9 @@ const Catalog = {
     },
     "Community Algorithm": {
         Title: "Matching Algorithm",
+        Team: true,
         Author: "Matthew Tang and Jun Won Song",
-        Description: "Within a theoretical community, multiple study groups are made each week, hosted at different houses. To be fair, everyone has to be in a group with everyone else at least once, and each person must host every other person atleast once. In addition to these constraints, some individuals within the community are married, and so they are inseperable when attending study groups",
+        Description: "Within a theoretical community, multiple study groups are made each week, hosted at different houses. To be fair, everyone has to be in a group with everyone else at least once, and each person must host every other person atleast once. In addition to these constraints, some individuals within the community are married, and so they are inseperable when attending study groups. For this project, I was the main developer in charge of physically writing the code, and deciding what data structures we should use, and our different functions, and artifacts we should implement, whilst my partner dealt a lot with the write-up and documentation. We both contributed heavily to the construction of our algorithm.",
         Exp: "We were tasked with creating an algorithm, that given the number of people allowed per study group and a list of people, would determine how quickly each person could host everyone else. The project was done in Java using IntelliJ. In doing this project, I learned how complex algorithms can be, and how much thought goes into creating an elaborate way to solve problems. This project could not be done with just coding, as a team we also worked on countless sheets of paper constructing diagrams and graphs. More information and our documentation can be found in our GitHub below.",
         GitHubLink: "https://github.com/MatttTang/CommunityVisits",
         YLink: "https://www.youtube.com/watch?v=gbDyaXYKQBo&feature=youtu.be"

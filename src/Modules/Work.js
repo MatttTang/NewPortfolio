@@ -51,7 +51,7 @@ export default function Work() {
                     >
                     <Project Info={projectInfo} />
                     <button onClick={() => ReShow()}>
-                        Hello
+                        Return
                     </button>
                 </motion.div>
             )}
